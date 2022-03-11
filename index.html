@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assest/css/base.css">
+    <link rel="stylesheet" href="./assest/css/main.css">
+    <link rel="stylesheet" href="./assest/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./assest/img/logo.png" width="90px">
+                </div>
+
+                <nav>
+                    <ul id = "MenuItems">
+                        <li><a href="">Trang Chủ</a></li>
+                        <li><a href="">Giới Thiệu</a></li>
+                        <li><a href="">Tin Tức</a></li>
+                        <li><a href="">Liên Hệ</a></li>
+                        <li>
+                            <a href="">
+                                Sản Phẩm
+                            <i class="nav-arrow-down ti-angle-down "></i> 
+                            </a>
+                            <ul class="subnav">
+                                <li><a href="">Thức Ăn Cho Heo</a></li>
+                                <li><a href="">Thức Ăn Cho Gà</a></li>
+                                <li><a href="">Thức Ăn Cho Vịt</a></li>
+                                <li><a href="">Thức Ăn Cho Dê</a></li>
+                                <li><a href="">Thức Ăn Cho Thỏ</a></li>
+                                <li><a href="">Thức Ăn Cho Cá</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="search-btn">
+                    <i class="search-icon ti-search"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- Thông tin -->
+    <div class="thanhcoso">
+        <div class="logomxh">
+            <i class="mxhlogo ti-facebook"></i>
+            <i class="mxhlogo ti-instagram"></i>
+        </div>
+        <div class="email">
+            <i class="emaillogo ti-email"></i>
+            <p>bonthangngoc@gmail.com</p>
+        </div>
+        <div class="time">
+            <i class="timelogo ti-timer"></i>
+            <p>7:00 - 19:00</p>
+        </div>
+        <div class="sdt">
+            <i class="sdtlogo ti-hand-point-right"></i>
+            <p>0909686868</p>
+        </div>
+    </div>
+    <!-- end thông tin -->
+    <!-- ảnh nền -->
+    <div class="gioithieu">
+        <div class="logomain">
+            <img src="./assest/img/main1.png" width="500px" >
+        </div>
+        <div class="chugioithieu">
+            <h1>Cửa Hàng Thức Ăn Gia Súc ABC  </h1>
+            <p>Chào Mừng Bạn Đến Với Cửa Hàng Của Chúng Tôi!
+            </p>
+        </div>
+    </div>
+    <!-- slider -->
+    <section class="slider owl-carousel owl-theme">
+        <div class="slider-item slider-1">
+
+        </div>
+        <div class="slider-item slider-2">
+
+        </div>
+        <div class="slider-item slider-3">
+
+        </div>
+
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+    })
+    </script>
+    <!-- bộ sản phẩm -->
+    <div class="small-container">
+        <h2 class="title">Bộ Sưu Tập</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assest/img/logoheo.png" alt="">
+                <h4>Thức Ăn Cho Heo</h4>
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/logoga.png" alt="">
+                <h4>Thức Ăn Cho Gà</h4>
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/logovit.png" alt="">
+                <h4>Thức Ăn Cho Vịt</h4>
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/logode.png" alt="">
+                <h4>Thức Ăn Cho Dê</h4>
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/logotho.png" alt="">
+                <h4>Thức Ăn Cho Thỏ</h4>
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/logoca.png" alt="">
+                <h4>Thức Ăn Cho Cá</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Các sản phẩm -->
+
+    <div class="small-container">
+        <h2 class="title">Sản Phẩm</h2>
+        <h2 class="title2">Thức Ăn Cho Heo</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assest/img/camheoconco.png" alt="">
+                <h4>Cám Heo 5kg Con Cò
+                     <br> 120.000đ
+                    </h4>
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camheo20.png" alt="">
+                <h4>Cám Heo 20kg Đến Xuất Chuồng</h4>
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camheo50.png" alt="">
+                <h4>Cám Heo 50kg Đến Xuất Chuồng</h4>
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camheothai.png" alt="">
+                <h4>Cám Heo Mang Thai</h4>
+            </div>
+        </div>
+        <h2 class="title2">Thức Ăn Cho Gà</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assest/img/camga1.png" alt="">
+                <h4>Cám Gà 1 ngày - 21 ngày P221</h4>
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camga2.png" alt="">
+                <h4>Cám Gà 22 ngày - 42 ngày C225B</h4>
+
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camga3.png" alt="">
+                <h4>Cám Gà 42 ngày - xuất chuồng M823</h4>
+
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camgathit.png" alt="">
+                <h4>Cám Gà Thịt C200</h4>
+            </div>
+        </div>
+        <h2 class="title2">Thức Ăn Cho Vịt</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assest/img/camvit1.png" alt="">
+                <h4>Cám Vịt con 1 ngày - 21 ngày C62</h4>
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camvit2.png" alt="">
+                <h4>Cám Vịt 22 ngày - vỗ béo C663</h4>
+
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camvit3.png" alt="">
+                <h4>Cám Vịt Siêu Trứng C64</h4>
+
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camvit4.png" alt="">
+                <h4>Cám Vịt S73</h4>
+            </div>
+        </div>
+        <h2 class="title2">Thức Ăn Cho Dê</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assest/img/camdea35-s.png" alt="">
+                <h4>Thức Ăn Hỗn Hợp Cao Cấp A35-S</h4>
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camde1.png" alt="">
+                <h4>Thức Ăn Cho Dê Dạng Viên 5217</h4>
+
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camde2.png" alt="">
+                <h4>Thức Ăn Cho Dê D1</h4>
+
+            </div>
+            <div class="col-4">
+                <img src="./assest/img/camde3.png" alt="">
+                <h4>Thức Ăn Cho Dê D1</h4>
+            </div>
+        </div>
+    </div>
+    <!-- end thương hiệu mới -->
+</body>
+</html>
